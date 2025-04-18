@@ -1,0 +1,42 @@
+/* Header styling */
+.header {
+  background-color: red;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid yellow;
+}
+
+.header-logo {
+  height: 60px;
+}
+
+/* Algemene container voor inhoud */
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Typografie en linkstijl */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: red;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

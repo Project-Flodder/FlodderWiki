@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flodder (1986)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header wordt geladen via JavaScript -->
+  <div id="header-container"></div>
+
+  <div class="container">
+    <h1>Flodder (1986)</h1>
+
+    <div class="infobox">
+      <table>
+        <tr><th colspan="2">Filmgegevens</th></tr>
+        <tr><td>Regie</td><td>Dick Maas</td></tr>
+        <tr><td>Genre</td><td>Komedie</td></tr>
+        <tr><td>Duur</td><td>111 minuten</td></tr>
+        <tr><td>Première</td><td>6 maart 1986</td></tr>
+        <tr><td>Taal</td><td>Nederlands</td></tr>
+      </table>
+    </div>
+
+    <p>
+      <strong>Flodder</strong> is een Nederlandse komediefilm uit 1986, geregisseerd door Dick Maas.
+      De film volgt de asociale familie Flodder die in een chique villawijk wordt geplaatst
+      als sociaal experiment. Dit leidt tot chaos, botsingen met de buurt en veel hilariteit.
+    </p>
+
+    <p>
+      De film werd een groot succes en vormde de basis voor meerdere vervolgen én een populaire televisieserie.
+    </p>
+
+    <p><a href="index.html">← Terug naar startpagina</a></p>
+  </div>
+
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-container').innerHTML = data;
+      });
+  </script>
+</body>
+</html>
